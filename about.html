@@ -1,109 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Resources/css/customBootstrap.css">
-    <link rel="stylesheet" href="./Resources/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link
+      rel="shortcut icon"
+      href="./Vendors/favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/feb7c09e30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Resources/css/customBootstrap.css" />
+    <link rel="stylesheet" href="./Resources/css/style.css" />
+    <link rel="stylesheet" href="./Resources/css/style_2.css" />
     <title>Jashanjot-About</title>
-</head>
-<body>
-
-    <nav id="navbar">
-        <div class="container">
-            <div id="logo">
-               <img src="./Vendors/logo.png" alt="" srcset=""> <h1 class="d-inline-block"> JashanJot</h1>
+  </head>
+  <body>
+    <nav id="navbar" class="navbar-without-header">
+      <div class="container">
+        <a href="./index.html" id="logo">
+          <img src="./Vendors/logo.png" alt="" srcset="" />
+        </a>
+        <div id="hamburger">
+          <input type="checkbox" name="" id="" />
+          <div id="overlay">
+            <div id="nav">
+              <ul>
+                <li>
+                  <a class="btn-animated-nav" href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a class="btn-animated-nav" href="./index.html#projects"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a class="btn-animated-nav" href="./about.html">About</a>
+                </li>
+                <li><a class="btn-animated-nav" href="#contact">Contact</a></li>
+              </ul>
             </div>
-            <div class="social-media">
-               <a target="_blank" href="https://www.facebook.com/profile.php?id=100041474625043"><img src="vendors/Social/iconfinder_facebook_313485.png" alt="" srcset=""></a>
-                <a target="_blank" href="#"><img src="./Vendors/Social/iconfinder_instagram_313477.png" alt="" srcset=""></a>
-                <a target="_blank" href="#"><img src="./Vendors/Social/iconfinder_twitter_313466.png" alt="" srcset=""></a>
-                <a target="_blank" href="https://github.com/Jashann"><img src="./Vendors/Social/iconfinder_Github_1298743.svg" alt="" srcset=""></a>
-            </div>
-            <div id="hamburger">
-                <a href="#"><img src="./Vendors/iconfinder_ic_round_hamburger_menu_5760408.png" alt="" srcset=""></a>
-
-            </div>
-
-            <div id="overlay">
-                 <a id="close-btn" href="#"><img src="/Vendors/close.svg" alt=""></a>
-                 <div id="nav">
-                     <ul>
-                         <li><a href="./index.html#showcase">Home</a></li>
-                         <li><a href="./index.html#projects">Projects</a></li>
-                         <li><a href="./services.html">Services</a></li>
-                         <li><a href="./about.html">About</a></li>
-                         <li><a href="./index.html#contact">Contact</a></li>
-                     </ul>
-                 </div>
-            </div>
+          </div>
+          <span id="line"></span>
         </div>
+      </div>
     </nav>
 
-    <section id="about" class="text-center bg-light-4">
-        <div class="container">
-            <div> 
-                <img id="avatar" src="./Vendors/boy.svg" alt="">
-                <h1>I am a <span class="text-primary text-uppercase">Web developer</span> I am student who has worked on various personal projects. I have created various websites which you could check by going to Home page and Portfolio.
-                From all the projects, I am proud of my work <a class="text-primary" href="https://discovero.in">DISCOVERO</a>, Discovero is a web based dictionary it supports bookmarking, pronouncing and speech dictating features etc...
-                </h1>
-                <a href="#"><img src="./Vendors/scrolldown.svg" alt="" srcset=""></a>
+    <section id="about" class="text-center pb-5">
+      <div class="container">
+        <div>
+          <img id="avatar" class='mb-5' src="./Resources/avatar/jashan.jpg" alt="" />
+          <p class='about-content transparent-background p-4'>
+            I am an
+            <span class="text-primary text-uppercase">undergrad student</span>
+            at
+            <span class="text-primary text-uppercase">
+              University of Manitoba</span
+            >
+            studying CS. I started with coding when I was 15. My first programming
+            language was JAVA. As I was excited about programming, I started self
+            studying reading w3schools articles, watching TheNewBoston. I
+            took Udemy course to deep down in Java, it was really worth it.
+            <br />
+            <br />
+            Then I wanted to develop websites especially web apps. I tried some online website builders then I
+            came to conclusion that I needed much more than those offered. I wanted to start learning web development as I had many ideas of cool
+            projects. I had made it my habit to spend at least 3 hours a day
+            learning about web development. Be it following a course along,
+            trying things out, reading articles (Medium, Freecodecamp),  finally my favorite part developing projects that I
+            always wanted to.
+          </p>
+          <br><br>
+          <a href="#skills"
+            ><img src="./Vendors/scrolldown.svg" alt="" srcset=""
+          /></a>
+        </div>
+        <div>
+          <h2 class="text-primary text-uppercase">My Skills</h2>
+          <div id="skills" class="p-5 box-shadow border-13">
+             <div class="skill django">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/django.jpg" alt="" />
+              <div class="progress"></div>
             </div>
-            <div>
-                <h2 class="text-primary text-uppercase">My Skills</h2>
-                <div id="skills" class="bg-light-1 pl-3 pt-4">
-                    <div class="skill">
-                        <img src="./Vendors/Usage/html5.svg" alt="">
-                        <div class="progress"> </div>
-                    </div>
-                    <div class="skill">
-                        <img src="./Vendors/Usage/css3.svg" alt="">
-                        <div class="progress"> </div>
-                    </div>
-                    <div class="skill">
-                        <img src="./Vendors/Usage/javascript.svg" alt="">
-                        <div class="progress"> </div>
-                    </div>
-                    <!-- <div class="skill">
+            <div class="skill python">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/python.svg" alt="" />
+              <div class="progress"></div>
+            </div>
+            <div class="skill javascript">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/javascript.svg" alt="" />
+              <div class="progress"></div>
+            </div>
+            <div class="skill react">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/react.svg" alt="" />
+              <div class="progress"></div>
+            </div>
+            <div class="skill css">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/css3.svg" alt="" />
+              <div class="progress"></div>
+            </div>
+            <div class="skill html">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/html5.svg" alt="" />
+              <div class="progress"></div>
+            </div>
+            <div class="skill java">
+              <div class="progress"></div>
+              <img src="./Vendors/Usage/java.svg" alt="" />
+              <div class="progress"></div>
+            </div>
+            <!-- <div class="skill">
                         <img src="./Vendors/Usage/api.svg" alt="">
                         <div class="progress"> </div>
                     </div> -->
-                    <!-- react 
+            <!-- react 
                     angular 
                     database -->
-                    </div>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="contact" class="bg-dark-4 text-center">
-        <h1 class="text-uppercase text-primary">Contact Me</h1>
-        <div class="container">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Please write your message" name="" id="" cols="60" rows="10">
-            </textarea>
-            <button class="btn btn-primary"> Send Message </button>
-        </div>
+    <section id="contact" class="text-center box-shadow bg-gradient p-5">
+      <div class="container">
+        <a
+          href="mailto:jashangill3592@gmail.com?subject=I want to be connected to you"
+          class="btn btn-animated-project-light btn-contact box-shadow px-5 py-3"
+        >
+          Contact Me
+        </a>
+      </div>
     </section>
 
-    <footer id="main-footer" class="bg-dark-3 text-light-2">
-        <div class="social-media">
-            <a href="https://www.facebook.com/profile.php?id=100041474625043"><img src="vendors/Social/iconfinder_facebook_313485.png" alt="" srcset=""></a>
-            <a href="#"><img src="./Vendors/Social/iconfinder_instagram_313477.png" alt="" srcset=""></a>
-            <a href="#"><img src="./Vendors/Social/iconfinder_twitter_313466.png" alt="" srcset=""></a>
-            <a href="https://github.com/Jashann"><img src="./Vendors/Social/iconfinder_Github_1298743.svg" alt="" srcset=""></a>
-        </div>
-        <div class="text-uppercase">
-           &copy; All Rights reserved.
-        </div>
-        <a href="#"><img id="arrow-up" src="./Vendors/arrowUp.svg" alt=""></a>
+    <!-- START OF FOOTER -->
+    <footer id="main-footer" class="text-light-2">
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/jashan7"
+          ><img src="Vendors/Social/linkedIn.svg" alt="linkedIn" srcset=""
+        /></a>
+
+        <a href="https://github.com/Jashann"
+          ><img
+            src="./Vendors/Social/iconfinder_Github_1298743.svg"
+            alt="github"
+            srcset=""
+        /></a>
+
+        <a
+          href="mailto:jashangill3592@gmail.com?subject=I want to be connected to you"
+          ><img
+            src="./Vendors/Social/iconfinder_gmail_1220340.png"
+            alt="Gmail"
+            srcset=""
+        /></a>
+
+        <!-- <a href="#"
+          ><img
+            src="./Vendors/Social/iconfinder_instagram_313477.png"
+            alt=""
+            srcset=""
+        /></a>
+        <a href="#"
+          ><img
+            src="./Vendors/Social/iconfinder_twitter_313466.png"
+            alt=""
+            srcset=""
+        /></a> -->
+      </div>
+      <div class="text-uppercase">&copy; All Rights reserved.</div>
+      <a class="circle bg-primary" href="#"
+        ><img id="arrow-up" src="./Vendors/arrowUp.svg" alt="arrow-up"
+      /></a>
     </footer>
-    
+    <!-- End of Main-footer -->
+
     <script src="./Resources/script.js"></script>
-</body>
+  </body>
 </html>

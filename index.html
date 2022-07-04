@@ -1,173 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Resources/css/customBootstrap.css">
-    <link rel="stylesheet" href="./Resources/css/style.css">
+    <meta name="description" content="I am Jashanjot Singh Gill.">
+    <meta name="keywords" content="Jashanjot, Jashann, jashan, jashanjot, jashann, jashan gill Jashan, Jashan Gill, Jas, Jashanjot-Portfolio, Web developer Portfolio, jashangill3592, Jashangill3592">
+    <meta name="author" content="Jashanjot">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <link
+      rel="shortcut icon"
+      href="./Vendors/favicon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./Resources/css/customBootstrap.css" />
+    <link rel="stylesheet" href="./Resources/css/style.css" />
+    <link rel="stylesheet" href="./Resources/css/style_2.css" />
     <title>Jashanjot-Portfolio</title>
-</head>
-<body>
-
-    <nav id="navbar">
+  </head>
+  <body>
+    <!-- Start of Main-header -->
+    <header id="main-header">
+      <nav id="navbar">
         <div class="container">
-            <div id="logo">
-               <img src="./Vendors/logo.png" alt="" srcset=""> <h1 class="d-inline-block"> JashanJot</h1>
-            </div>
-            <div class="social-media">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100041474625043"><img src="vendors/Social/iconfinder_facebook_313485.png" alt="" srcset=""></a>
-                <a target="_blank" href="#"><img src="./Vendors/Social/iconfinder_instagram_313477.png" alt="" srcset=""></a>
-                <a target="_blank" href="#"><img src="./Vendors/Social/iconfinder_twitter_313466.png" alt="" srcset=""></a>
-                <a target="_blank" href="https://github.com/Jashann"><img src="./Vendors/Social/iconfinder_Github_1298743.svg" alt="" srcset=""></a>
-            </div>
-            <div id="hamburger">
-                <a href="#"><img src="./Vendors/iconfinder_ic_round_hamburger_menu_5760408.png" alt="" srcset=""></a>
-
-            </div>
-
+          <a href="./index.html" id="logo">
+            <img src="./Vendors/logo.png" alt="logo" srcset="" />
+          </a>
+          <div id="hamburger">
+            <input type="checkbox" name="" id="" />
             <div id="overlay">
-                 <a id="close-btn" href="#"><img src="/Vendors/close.svg" alt=""></a>
-                 <div id="nav">
-                     <ul>
-                         <li><a href="#showcase">Home</a></li>
-                         <li><a href="#projects">Projects</a></li>
-                         <li><a href="./services.html#services">Services</a></li>
-                         <li><a href="./about.html#about">About</a></li>
-                         <li><a href="#contact">Contact</a></li>
-                     </ul>
-                 </div>
+              <div id="nav">
+                <ul>
+                  <li><a class="btn-animated-nav" href="#">Home</a></li>
+                  <li>
+                    <a class="btn-animated-nav" href="#projects">Projects</a>
+                  </li>
+                  <li>
+                    <a class="btn-animated-nav" href="./about.html">About</a>
+                  </li>
+                  <li>
+                    <a class="btn-animated-nav" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <span id="line"></span>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-    <header id="showcase">
+      <header id="showcase">
         <div>
-            <h1 class="text-uppercase">I am a web developer...</h1>
-            <h3 class="text-uppercase">I can help you grow your business</h3>
-            <div>
-                <a href="#about" class="btn btn-transparent">Learn More</a>
-                <a href="#contact" class="btn btn-light">Contact Me</a>
-            </div>
-            <a id="scrolldown" href="#projects"><img src="./Vendors/scrolldown.svg" alt="" srcset=""></a>
+          <h1 class="text-uppercase">I am Jashanjot Singh Gill...</h1>
+          <h3 class="text-uppercase">I love web development.</h3>
+          <br>
+          <div>
+            <a href="./about.html" class="btn btn-animated-light know-me">Know Me</a>
+            <a href="#contact" class="btn btn-light border-know">Contact Me</a>
+          </div>
+          <a id="scrolldown" href="#projects"
+            ><img src="./Vendors/scrolldown.svg" alt="scroll-down" srcset=""
+          /></a>
         </div>
+      </header>
     </header>
-    
+    <!-- End of Main-header -->
 
-    <section id="projects" class="text-center">
-        <div class="container">
-            <h1 id="projects-heading" class="text-center text-uppercase">Work</h1>
+    <!-- Start of Projects -->
+    <section id="projects" class="text-center py-5">
+      <div class="container">
+        <h1 id="projects-heading" class="text-center text-uppercase">
+          Projects
+        </h1>
 
-            <h2 class="text-primary">DesignX</h2>
-            <div class="project">
-                <div class="project-img">
-                    <img src="./Resources/projects/designx.jpg" alt="">
-                </div>
-                <div class="project-content">
-                    <div>
-                        <h3 class="text-uppercase text-primary">Technologies Used</h3>
-                        <img src="./Vendors/Usage/html5.svg" alt="">
-                        <img src="./Vendors/Usage/css3.svg" alt="">
-                        <img src="./Vendors/Usage/javascript.svg" alt="">
-                        <img src="./Vendors/Usage/github-repository.svg" alt="">
-                        <img src="./Vendors/Usage/visualstudio-microsoft.svg" alt="">
-                    </div>
-                    <div class="project-btns">
-                        <a target="_blank" href="https://jashann.github.io/jashann.designx.io/" class="btn btn-primary">Visit Now</a>
-                        <a href="#" class="btn btn-light">Learn More</a>
-                    </div>
-                </div>
+          <h2 class="text-primary transparent-background">
+          Thoughts sharing - Django Based App
+          </h2>
+        <div class="project">
+          <div class="project-img box-shadow">
+            <a href="./Resources/projects/thoughts_sharing.jpg">
+            <img
+              src="./Resources/projects/thoughts_sharing.jpg"
+              alt="Thoughts_sharing"
+            />
+            </a>
+          </div>
+          <div class="project-content box-shadow">
+            <div class="mb-3">
+              <h3 class="text-uppercase text-primary transparent-background">Technologies Used</h3>
+              <img src="./Vendors/Usage/django.jpg" alt="django" />
+              <img src="./Vendors/Usage/html5.svg" alt="html5" />
+              <img src="./Vendors/Usage/css3.svg" alt="css3" />
+              <img src="./Vendors/Usage/javascript.svg" alt="javascript" />
+              <img src="./Vendors/Usage/api.svg" alt="api" />
+              <img src="./Vendors/Usage/aws.svg" alt="aws" />
             </div>
-            <h2 class="text-primary">Discovero</h2>
-            <div class="project">
-                <div class="project-img">
-                    <img src="./Resources/projects/discovero.jpg" alt="">
-                </div>
-                <div class="project-content">
-                    <div>
-                        <h3 class="text-uppercase text-primary">Technologies Used</h3>
-                        <img src="./Vendors/Usage/html5.svg" alt="">
-                        <img src="./Vendors/Usage/css3.svg" alt="">
-                        <img src="./Vendors/Usage/javascript.svg" alt="">
-                        <img src="./Vendors/Usage/github-repository.svg" alt="">
-                        <img src="./Vendors/Usage/visualstudio-microsoft.svg" alt="">
-                        <img src="./Vendors/Usage/api.svg" alt="" srcset="">
-                    </div>
-                    <div class="project-btns">
-                        <a target="_blank" href="https://discovero.in" class="btn btn-primary">Visit Now</a>
-                        <a href="#" class="btn btn-light">Learn More</a>
-                    </div>
-                </div>
+            <div class="project-btns mt-3">
+              <a
+                target="_blank"
+                href="https://thoughts-sharing.herokuapp.com/"
+                class="btn btn-animated-project-light"
+                >Visit Now</a
+              >
+              <a
+                href="#popup-thoughts-sharing"
+                class="btn btn-animated-project-light"
+                >Learn More</a
+              >
             </div>
-            <h2 class="text-primary">Portfolio Grid </h2>
-            <div class="project">
-                <div class="project-img">
-                    <img src="./Resources/projects/showcase.jpg" alt="">
-                </div>
-                <div class="project-content">
-                    <div>
-                        <h3 class="text-uppercase text-primary">Technologies Used</h3>
-                        <img src="./Vendors/Usage/html5.svg" alt="">
-                        <img src="./Vendors/Usage/css3.svg" alt="">
-                        <img src="./Vendors/Usage/javascript.svg" alt="">
-                        <img src="./Vendors/Usage/netlify.svg" alt="">
-                        <img src="./Vendors/Usage/visualstudio-microsoft.svg" alt="">
-                    </div>
-                    <div class="project-btns">
-                        <a target="_blank" href="https://jashann.github.io/portfolio/" class="btn btn-primary">Visit Now</a>
-                        <a href="#" class="btn btn-light">Learn More</a>
-                    </div>
-                </div>
+          </div>
+          <div id="popup-thoughts-sharing" class="popup text-justify">
+            <div class="popup-container">
+              <h1 class="text-primary">Thoughts sharing - Django Based App</h1>
+              <span class="close"> &times; </span>
+              <p>
+                It is Django based app, where users can login to create, read articles give comments on others articles.
+              </p>
+
+              <h3 class="mb-0">Skills</h3>
+              <ul class="ml-4">
+                <li>Server Side Rendering</li>
+                <li>JavaScript + Django for getting Async behavior</li>
+              </ul>
+
+              <h3 class="mb-0">Authentication</h3>
+              <ul class="ml-4">
+                <li>Login, Logout, Reset Email</li>
+                <li>Built using Class-Based views.</li>
+              </ul>
+              
+              <h3 class="mb-0">Functionalities</h3>
+              <ul class="ml-4">
+                <li>Create, edit, view, delete -> articles & review</li>
+                <li>Admin panel to have control over users articles and comments</li>
+                <li>Searching functionality for articles & users</li>
+                <li>User profile tailored to each user, displays user's profile information, articles, reviews, and favorites.</li>
+                <li>Html text rich editor to make it easier for users to create good articles</li>
+                <li>Option to add articles to user's favorites</li>
+                <li>Pagination using paginator</li>
+              </ul>
+
+              <h3 class="mb-0">Technologies & Implementations</h3>
+              <ul class="ml-4">
+                <li>Database: relationship between different models</li>
+                <li>Both class-based & function-based Views</li>
+                <li>Connecting aws bucket with heroku</li>
+                <li>Different permissions defined so a user can have access only to his data</li>
+              </ul>
+
+              <h3 class="mb-0">Integrations and Deployment</h3>
+              <ul class="ml-4">
+                <li>TinyMCE editor is integrated for having Html text rich editor</li>
+                <li>AWS 3 is used for storing media files </li>
+                <li>The Project is deployed on Heroku</li>
+              </ul>
+      
+              <br />
+
+              <h4 class="">
+                Visit Website to get clear picture of Thoughts Sharing App!
+              </h4>
+              <small>The website is deployed on free server that goes to sleep every 30 minutes if the site is not visited website, so the loading may take a while</small>
+              
+              <br>
+              
+              <div class="popup-btns mt-3">
+                <a
+                  class="d-inline-block btn btn-primary rounded-pill"
+                  target="_blank"
+                  href="https://thoughts-sharing.herokuapp.com/"
+                  >Visit Now</a
+                >
+                
+              </div>
             </div>
-            <h2 class="text-primary">Portfolio Minimalistic </h2>
-            <div class="project">
-                <div class="project-img">
-                    <img src="./Resources/projects/jashan.jpg" alt="">
-                </div>
-                <div class="project-content">
-                    <div>
-                        <h3 class="text-uppercase text-primary">Technologies Used</h3>
-                        <img src="./Vendors/Usage/html5.svg" alt="">
-                        <img src="./Vendors/Usage/css3.svg" alt="">
-                        <img src="./Vendors/Usage/github-repository.svg" alt="">
-                        <img src="./Vendors/Usage/visualstudio-microsoft.svg" alt="">
-                    </div>
-                    <div class="project-btns">
-                        <a target="_blank" href="https://jashann.github.io/Jashann.github.io-porfolio1/" class="btn btn-primary">Visit Now</a>
-                        <a href="#" class="btn btn-light">Learn More</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        
+        <h2 class="text-primary transparent-background">Smart Dictionary</h2>
+        <div class="project">
+          <div class="project-img box-shadow">
+            <a href="./Resources/projects/smart_dictionary.jpg">
+              <img
+                src="./Resources/projects/smart_dictionary.jpg"
+                alt="Smart-Dictionary"
+              />
+            </a>
+          </div>
+          <div class="project-content box-shadow">
+            <div class="mb-3">
+              <h3 class="text-uppercase text-primary transparent-background">Technologies Used</h3>
+              <img src="./Vendors/Usage/html5.svg" alt="html5" />
+              <img src="./Vendors/Usage/css3.svg" alt="css3" />
+              <img src="./Vendors/Usage/javascript.svg" alt="javascript" />
+              <img
+                src="./Vendors/Usage/github-repository.svg"
+                alt="github-repository"
+              />
+              <img
+                src="./Vendors/Usage/visualstudio-microsoft.svg"
+                alt="visualstudio-microsoft"
+              />
+              <img src="./Vendors/Usage/api.svg" alt="api" srcset="" />
+            </div>
+            <div class="project-btns mt-3">
+              <a
+                target="_blank"
+                href="https://jashann.github.io/Smart-Dictionary/"
+                class="btn btn-animated-project-light"
+                >Visit Now</a
+              >
+              <a href="#popup-smart-dictionary" class="btn btn-animated-project-light"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div id="popup-smart-dictionary" class="popup">
+            <div class="popup-container">
+              <h1 class="text-primary">Smart Dictionary</h1>
+              <span class="close"> &times; </span>
+              <p>
+                Smart Dictionary is a Single Page Application (SPA), a web based dictionary. It is made using HTML, CSS and JAVASCRIPT, WEB APIs.
+              </p>
+              <h3 class="mb-0">Features</h3>
+              <ul class="ml-4">
+                <li>Quick suggestions on highlighting text</li>
+                <li>Bookmarking the words</li>
+                <li>Pronouncing the word. Dictator for reading inputted text</li>
+                <li>Three Theme options to choose: Light, Dark, Colorful</li>
+              </ul>
+
+              <h3 class="mb-0">Technologies used and Implementation</h3>
+              <ul class="ml-4">
+                <li>Module Patter</li>
+                <li>Interacting with two APIs</li>
+                <li>Working with browser SpeechSynthesis</li>
+              </ul>
+
+              <h4 class="">
+                Visit Website to get clear picture of Smart Dictionary
+              </h4>
+              <div class="popup-btns">
+                <a
+                  class="d-inline-block btn btn-primary rounded-pill"
+                  target="_blank"
+                  href="https://jashann.github.io/Smart-Dictionary/"
+                  >Visit Now</a
+                >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+      
+      <h2 class="text-primary transparent-background">
+          Aurora Store - Online Clothing Store
+        </h2>
+        <div class="project">
+          <div class="project-img box-shadow">
+            <a href="./Resources/projects/auora_store.jpg">
+              <img
+                src="./Resources/projects/auora_store.jpg"
+                alt="Aurora_Store"
+              />
+            </a>
+          </div>
+          <div class="project-content box-shadow">
+            <div class="mb-3">
+              <h3 class="text-uppercase text-primary transparent-background">Technologies Used</h3>
+              <img src="./Vendors/Usage/html5.svg" alt="html5" />
+              <img src="./Vendors/Usage/css3.svg" alt="css3" />
+              <img src="./Vendors/Usage/javascript.svg" alt="javascript" />
+              <img src="./Vendors/Usage/react.svg" alt="react" />
+              <img src="./Vendors/Usage/redux.webp" alt="redux" />
+              <img src="./Vendors/Usage/firebase.webp" alt="firebase" />
+            </div>
+            <div class="project-btns mt-3">
+              <a
+                target="_blank"
+                href="https://jashann.github.io/Aurora_Store/"
+                class="btn btn-animated-project-light"
+                >Visit Now</a
+              >
+              <a
+                href="#popup-aurora-store"
+                class="btn btn-animated-project-light"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div id="popup-aurora-store" class="popup text-justify">
+            <div class="popup-container">
+              <h1 class="text-primary">Aurora Store - Online Clothing Store</h1>
+              <span class="close"> &times; </span>
+              <p>
+                Aurora Store is a fictional online shopping website built using
+                <b> React, Redux, Routing, Firebase </b>
+                and much more.
+              </p>
+              <h3 class="mb-0">Features</h3>
+              <ul class="ml-4">
+                <li>Signing up and Signing in the user with Google and Email</li>
+                <li>Storing products in the cart in the database for syncing over all devices</li>
+                <li>Searching products from all the products currently available</li>
+              </ul>
+              
+              <h3 class="mb-0">Technologies used and Implementations</h3>
+              <ul class="ml-4">
+                <li>React for UI</li>
+                <li>Redux for state management</li>
+                <li>Firebase for authentication and storing cart data of a user</li>
+                <li>React router for routing between different pages</li>
+              </ul>
+      
+              <br />
+              <h4 class="">
+                Visit Website to get clear picture of Aurora Store!
+              </h4>
+              <div class="popup-btns">
+                <a
+                  class="d-inline-block btn btn-primary rounded-pill"
+                  target="_blank"
+                  href="https://jashann.github.io/Aurora_Store/"
+                  >Visit Now</a
+                >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+         <!-- Start of Github finder -->
+        <h2 class="text-primary transparent-background">Github Finder</h2>
+        <div class="project">
+          <div class="project-img box-shadow">
+            <a href="./Resources/projects/github_finder.jpg">
+              <img
+                src="./Resources/projects/github_finder.jpg"
+                alt="github_finder"
+              />
+            </a>
+          </div>
+          <div class="project-content box-shadow">
+            <div class="mb-3">
+              <h3 class="text-uppercase text-primary transparent-background">Technologies Used</h3>
+              <img src="./Vendors/Usage/html5.svg" alt="html5" />
+              <img src="./Vendors/Usage/css3.svg" alt="css3" />
+              <img src="./Vendors/Usage/bootstrap.png" alt="bootstrap" />
+              <img src="./Vendors/Usage/react.svg" alt="react" />
+              <img src="./Vendors/Usage/api.svg" alt="api" />
+            </div>
+            <div class="project-btns mt-3">
+              <a
+                target="_blank"
+                href="https://jashann.github.io/Github-Finder"
+                class="btn btn-animated-project-light"
+                >Visit Now</a
+              >
+              <a
+                href="#popup-github-finder"
+                class="btn btn-animated-project-light"
+                href="https://github.com/Jashann/Github-Finder"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div id="popup-github-finder" class="popup">
+            <div class="popup-container">
+              <h1 class="text-primary">Github Finder</h1>
+              <span class="close"> &times; </span>
+              <p>
+                Github Finder is a web-based app. It interacts with Github
+                developer Api to fetch users and their data.
+
+                <h3 class="mb-0">Technologies used and Implementation</h3>
+                <ul class="ml-4">
+                  <li>React</li>
+                  <li>Context Api</li>
+                  <li>Module Patter (for night mode)</li>
+                </ul>
+
+              </p>
+              <h4 class="">
+                Visit Website to get clear picture of Github Finder
+              </h4>
+              <div class="popup-btns">
+                <a
+                  class="d-inline-block btn btn-primary rounded-pill"
+                  target="_blank"
+                  href="https://jashann.github.io/Github-Finder"
+                  >Visit Now</a
+                >
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Github finder -->
+  
+      </div>
     </section>
+    <!-- End of Projects -->
 
-    <section id="contact" class="bg-dark-4 text-center">
-        <h1 class="text-uppercase text-primary">Contact Me</h1>
-        <div class="container">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Please write your message" name="" id="" cols="60" rows="10">
-            </textarea>
-            <button class="btn btn-primary"> Send Message </button>
-        </div>
+    <!-- Start of Contact -->
+    <section id="contact" class="text-center box-shadow bg-gradient p-5">
+      <div class="container">
+        <a
+          href="mailto:jashangill3592@gmail.com?subject=I want to be connected to you"
+          class="btn btn-animated-project-light btn-contact box-shadow px-5 py-3"
+        >
+          Contact Me
+        </a>
+      </div>
     </section>
+    <!-- End of Contact -->
 
-    <footer id="main-footer" class="bg-dark-3 text-light-2">
-        <div class="social-media">
-            <a href="https://www.facebook.com/profile.php?id=100041474625043"><img src="vendors/Social/iconfinder_facebook_313485.png" alt="" srcset=""></a>
-            <a href="#"><img src="./Vendors/Social/iconfinder_instagram_313477.png" alt="" srcset=""></a>
-            <a href="#"><img src="./Vendors/Social/iconfinder_twitter_313466.png" alt="" srcset=""></a>
-            <a href="https://github.com/Jashann"><img src="./Vendors/Social/iconfinder_Github_1298743.svg" alt="" srcset=""></a>
-        </div>
-        <div class="text-uppercase">
-           &copy; All Rights reserved.
-        </div>
-        <a href="#"><img id="arrow-up" src="./Vendors/arrowUp.svg" alt=""></a>
+    <!-- Start of Main-footer -->
+    <footer id="main-footer" class="text-light-2">
+      <div class="social-media">
+       <a href="https://www.linkedin.com/in/jashan7"
+          ><img src="Vendors/Social/linkedIn.svg" alt="linkedIn" srcset=""
+        /></a>
+
+        <a href="https://github.com/Jashann"
+          ><img
+            src="./Vendors/Social/iconfinder_Github_1298743.svg"
+            alt="github"
+            srcset=""
+        /></a>
+
+        <a
+          href="mailto:jashangill3592@gmail.com?subject=I want to be connected to you"
+          ><img
+            src="./Vendors/Social/iconfinder_gmail_1220340.png"
+            alt="Gmail"
+            srcset=""
+        /></a>
+
+        <!-- <a href="#"
+          ><img
+            src="./Vendors/Social/iconfinder_instagram_313477.png"
+            alt=""
+            srcset=""
+        /></a>
+        <a href="#"
+          ><img
+            src="./Vendors/Social/iconfinder_twitter_313466.png"
+            alt=""
+            srcset=""
+        /></a> -->
+      </div>
+      <div class="text-uppercase">&copy; All Rights reserved.</div>
+      <a class="circle bg-primary" href="#"
+        ><img id="arrow-up" src="./Vendors/arrowUp.svg" alt="arrow-up"
+      /></a>
     </footer>
-    
+    <!-- End of Main-footer -->
+
     <script src="./Resources/script.js"></script>
-</body>
+  </body>
 </html>
